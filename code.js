@@ -2,10 +2,10 @@ let buttonaActions = () => {
     let mainButton = document.querySelector('.big-button');
     let buttonShadow = document.querySelector('.button-shadow');
 
-    mainButton.onmouseover = () =>{
+    mainButton.onmousedown = () =>{
         buttonShadow.classList.add('no-button-shadow');
     }
-    mainButton.onmouseout  = () =>{
+    mainButton.onmouseup  = () =>{
         buttonShadow.classList.remove('no-button-shadow');
     }
 }
