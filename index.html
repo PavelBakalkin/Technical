@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img id="top-shadow" src="ImagesAndFonts/top.png" class="top-shadow" alt="">
+        <img id="bottom-shadow" src="ImagesAndFonts/bot.png" class="bot-shadow" alt="">
+        <img id="bg" src="ImagesAndFonts/bg .png" class="back" alt="">
+        <img id="castle" src="ImagesAndFonts/castle1.png" class="castle" alt="">
+        <img id="knight" src="ImagesAndFonts/knight.png" class="knight" alt="">
+        <img id="circles" src="ImagesAndFonts/circles.png" class="circles" alt="">
+        <canvas id="big" class="canva1" width = "300" height="300"></canvas>
+        <canvas id="average" class="canva2" width = "200" height="250"></canvas>
+        <canvas id="small" class="canva3" width = "100" height="150"></canvas>
+
+        <header class="mini-wrapper">
+            <div class="top-div">
+                <img src="ImagesAndFonts/clickable.png " class="clickable" alt="">
+            </div>
+            <div class="awards">
+                <img src="ImagesAndFonts/award.png " class="img-float" alt="">
+                <span class="big-text">ПРЕМИЯ ЗА ЛУЧШУЮ ВЕРСТКУ БЕЗ ГОВНА</span><br/>
+                <span class="small-text">*ПО РЕЗУЛЬТАТАМ ПРЕМИИ HUINYA SOBACHIYA 2021</span>
+            </div>
+        </header>
+        <main>
+            <p class="loud-slogan">ДАРИМ</p>
+            <div class="wrapper-for-likes">
+                <img src="ImagesAndFonts/part.png" class="first-sign" alt="">
+                <img src="ImagesAndFonts/part.png" class="second-sign" alt="">
+                <p class="shadow-likes">ЛАЙКИ</p>
+                <p class="likes">ЛАЙКИ</p>
+            </div>
+            <p class="loud-slogan mobile-ver">ЗА ЧЕТКУЮ ВЕРСТКУ</p>
+            <div class="btn-and-text-wrapper">
+                <div class="button-father">
+                    <button class="big-button">НАДАВИ СЮДА</button>
+                    <div class="button-shadow"></div>
+                </div>
+                <div class="ghost-text">
+                    <span class="best-front">ЛУЧШИЙ ФРОНТЭНД</span>
+                    <span class="best-front best-front-vis">ЛУЧШИЙ ФРОНТЭНД</span>
+                    <span class="best-front on-tower">НА БАШНЕ</span>
+                    <span class="best-front best-front-vis on-tower">НА БАШНЕ</span>
+                </div>
+                <p class="link">
+                    <a href="" class="rules">Правила и условия</a>
+                </p>
+            </div>
+        </main>
+        <footer>
+            <div class="wrapper-links">
+                <a href="" id="a" class="a"><img id="a-img" src="ImagesAndFonts/yandex.png" alt=""></a>
+                <a href="" class="b"><img id="b-img" src="ImagesAndFonts/qiwi.png" alt=""></a>
+                <a href="" class="c"><img id="c-img" src="ImagesAndFonts/webmoney.png" alt=""></a>
+                <a href="" class="d"><img id="d-img" src="ImagesAndFonts/visa.png" alt=""></a>
+                <a href="" class="e"><img id="e-img" src="ImagesAndFonts/mastercard.png" alt=""></a>
+                <a href="" class="alone18 f"><img id="f-img" src="ImagesAndFonts/18+.png" alt=""></a>
+                <a href="" class="insta g"><img id="g-img" src="ImagesAndFonts/insta.png" alt=""></a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        buttonaActions();
+        animateKnight();
+        changeBack();
+        addShadow();
+    </script>
+</body>
+</html>
